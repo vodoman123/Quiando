@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Pulling changes"
+echo
+
+cd /var/www/html || exit
+unset GIT_DIR
+git pull hub master
+
+exec git-update-server-info

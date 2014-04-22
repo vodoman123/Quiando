@@ -1,0 +1,3 @@
+Cool!=1
+Fantastic!=0
+Ummm...maybe I don't need it=0
